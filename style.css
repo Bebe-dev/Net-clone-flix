@@ -57,7 +57,7 @@ main .sec1{
   background-image: url("images/homepage background.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 main .sec1 h2{
   font-size: 50px;
@@ -107,7 +107,9 @@ main .sec1 h4{
 .video-container video{
   max-width: 370px;
 }
-
+.sec1{
+  margin-bottom: 0.3rem;
+}
 .sec2, .sec3, .sec4, .sec5{
   background-color: black;
   color: white;
@@ -209,5 +211,19 @@ ul li a:hover{
   }
   h2{
     font-size: 18px;
+  }
+  .image-container img{
+    max-width: 300px;
+  
+  }
+  .video-container video{
+    max-width: 230px;
+  }
+  .sec3 .boxshot{
+    left: 5%;
+    gap: 0.2rem;
+  }
+  .sec6 .faq{
+    width: 100%;
   }
 }
