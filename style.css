@@ -226,4 +226,29 @@ ul li a:hover{
   .sec6 .faq{
     width: 100%;
   }
+  .sec1-form{
+  flex-direction: column;
+  gap: 0.5rem;
+  }
+  .sec1-form input{
+  width: 80%;
+  }
+  .sec1-form button{
+  width: 50%;
+  }
+  .sec2-info{
+  justify-content: flex-start;
+  }
+  .sec5 img{
+  width: 90%;
+  }
+  .sec6{
+  padding: 0;
+  }
+  .sec6 .faq{
+  padding: 1rem;
+  }
+  footer{
+  padding: 1rem;
+  }
 }
